@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
-
+# Above we import the two other key files for this project.
+# Below we define the variables for each movie instance, including the movie titles, the links for the posters and trialers
 toy_story = media.Movie("Toy Story", "Toys come to life and make Pixar lots of money.",
 "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
 "https://www.youtube.com/watch?v=vwyZH85NQC4")
@@ -28,3 +29,4 @@ force_awakens = media.Movie("Star Wars: The Force Awakens", "A generation of Sta
 
 movies= [toy_story, avatar, selma, la_la_land, birdman, force_awakens]
 fresh_tomatoes.open_movies_page(movies)
+#Function takes in movies from above array of movies.  
