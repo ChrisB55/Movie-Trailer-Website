@@ -7,3 +7,4 @@ class Movie():
 
     def show_trailer (self):
         webbrowser_open
+#This declares the class movie and the instances of the class .title, storyline, etc. 
